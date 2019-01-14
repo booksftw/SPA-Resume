@@ -1,0 +1,30 @@
+.nick-profile {
+    display: flex;
+    padding-left: 8em;
+    padding-top: 12em;
+}
+
+.profile_image {
+    width: 11em;
+    height:15em;
+}
+
+span.right-sidebar-util {
+    display: inline;
+    margin-left: 23em;
+}
+
+p.nick-occupation-description {
+    display: inline-block;
+    margin-top:1.2em;
+    color: #4B4B4B;
+}
+
+h1.nick-occupation-header {
+    text-decoration: underline;
+    text-decoration-color: #A9CEE1;
+}
+
+.about-nick-container {
+    margin-left: 3.3em;
+}

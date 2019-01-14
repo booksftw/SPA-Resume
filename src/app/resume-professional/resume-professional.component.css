@@ -1,0 +1,37 @@
+.grid {
+    width: 40em;
+    margin-left: 6em;
+    display: inline-block;
+    padding-top: 10em;
+}
+
+
+h1.grid-header{
+    margin-left: 6em;
+    display:inline-block;
+}
+
+.grid-item {
+    float: left;
+    width: 33%;
+    margin-left:1.25em;
+    margin-top:1.25em;
+    height: 13em;
+    background: #e6e5e4;
+    border: 2px solid #b6b5b4;
+}
+
+.grid-item-header {
+    text-align:center;
+}
+
+.grid-img-item {
+    width: 8em;
+    height: 5em;
+    margin-left:2em;
+}
+
+.sidebar {
+    margin-left:21em;
+    display:inline-block;
+}

@@ -1,9 +1,17 @@
-.nz-test {
-    background-color:lightblue;
-    width:100px;
-    height:200px;
+.intro-container {
+    background-color: black;
+    width: 100%;
+    height: 134vh;
 }
 
-* {
-    font-family:   
+div.meet-nick-container {
+    width: 100%;
+    height: 84vh;
+    background-color: #F7F7F7;
+}
+
+div.professional {
+    width:100%;
+    height: 84vh;
+    background-color:#F2DBE1;
 }

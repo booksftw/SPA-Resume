@@ -1,8 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    margin: 0
+    margin: 0;
 }
 
 * {
     font-family:'Fira Sans','Thasadith','Noto Sans KR','Montserrat', 'sans-serif';
 }
+
+/* reset the margins at the top */
+p,h1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
