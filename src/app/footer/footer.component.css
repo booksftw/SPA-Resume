@@ -1,0 +1,28 @@
+.lets-connect {
+    text-align: center;
+}
+
+h3.footer-header {
+    position: relative;
+    top: -6.5em;
+}
+
+.footer-list {
+    text-align: center;
+    padding-bottom:1.5em;
+}
+
+.footer-list p {
+    display: inline-block;
+}
+
+.footer-mail {
+    position:relative;
+    right: 5em;
+}
+
+.footer-phone-number {
+    position: relative;
+    left:5em;
+}
+

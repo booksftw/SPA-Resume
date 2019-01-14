@@ -1,8 +1,12 @@
+.professional-container {
+    display:flex;
+}
+
 .grid {
     width: 40em;
     margin-left: 6em;
     display: inline-block;
-    padding-top: 10em;
+    padding-top: 6.7em;
 }
 
 
@@ -32,6 +36,7 @@ h1.grid-header{
 }
 
 .sidebar {
-    margin-left:21em;
+    margin-left:13em;
     display:inline-block;
+    width:20em;
 }

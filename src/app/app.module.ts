@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { IntroBlockComponent } from './intro-block/intro-block.component';
 import { ResumeMeetNickComponent } from './resume-meet-nick/resume-meet-nick.component';
 import { ResumeProfessionalComponent } from './resume-professional/resume-professional.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IntroBlockComponent,
     ResumeMeetNickComponent,
-    ResumeProfessionalComponent
+    ResumeProfessionalComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

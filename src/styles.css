@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Fixes footer showing the html background at the bottom  */
+html {
+    background-color: #a9cee1;
+}
+
 body {
     margin: 0;
 }

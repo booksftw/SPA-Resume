@@ -21,6 +21,6 @@ p.scrollImg {
     color: white;
     text-align: center;
     display: inline;
-    top: 45em;
+    top: 3em; /* * Todo: update this to be in a fixed bot left position animating. */
     position: relative;
 }
