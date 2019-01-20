@@ -1,10 +1,18 @@
 <div class='professional-container'>
 
-  <div class="grid">
+  <div class="grid" >
     <div>
       <h1 class="grid-header">Projects</h1>
     </div>
-    <div class="grid-item">
+
+    <div class="grid-item" *ngFor="let project of projects">
+      <h1 class='grid-item-header'>{{project.title}}</h1>
+      <img class='grid-img-item' src="{{project.imgsrc}}" alt="resume project img">
+      <p class='grid-description-item'>{{project.description}}</p>
+      <p>Role Position Num of Teammembers</p>
+    </div>
+
+    <!-- <div class="grid-item">
       <h1 class='grid-item-header'>Dota 2 Edge</h1>
       <img class='grid-img-item' src="/assets/images/dota2-wallpaper.jpg" alt="dota2edge front img">
       <p class='grid-description-item'>Angular app that intelligently figures out to pick the best dota2 heroes</p>
@@ -23,7 +31,7 @@
       <h1 class='grid-item-header'>Dota 2 Edge</h1>
       <img class='grid-img-item' src="/assets/images/dota2-wallpaper.jpg" alt="dota2edge front img">
       <p class='grid-description-item'>Angular app that intelligently figures out to pick the best dota2 heroes</p>
-    </div>
+    </div> -->
   </div>
 
   <div class="sidebar">
@@ -42,6 +50,12 @@
       <h3>Education</h3>
       <p>Camosun College <br>
         Jan 2010 to Jan 2012</p>
+        <br>
+        <p>Coursera - list courses</p>
+        <br>
+        <p>Teamtreehouse - list stats</p>
+        <br>
+        <p>Udemy list stats</p>
     </div>
     <div class="skills">
       <h3>Skills</h3>
@@ -56,6 +70,12 @@
       </p>
       <!-- break it down into sub categories-->
     </div>
+  </div>
+
+  <div *ngFor="let x of test">
+    <p>
+      {{x}}
+    </p>
   </div>
 
 </div>
