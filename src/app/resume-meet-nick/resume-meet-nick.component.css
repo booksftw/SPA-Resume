@@ -7,11 +7,13 @@
 .profile_image {
     width: 11em;
     height:15em;
+    margin-left:6em;
 }
 
 span.right-sidebar-util {
     display: inline;
-    margin-left: 23em;
+    margin-left: 30em;
+    /* width: 13em; */
 }
 
 p.nick-occupation-description {
@@ -28,3 +30,59 @@ h1.nick-occupation-header {
 .about-nick-container {
     margin-left: 3.3em;
 }
+
+.right-sidebar-util p, .right-sidebar-util a {
+    display: inline;
+}
+
+.right-sidebar-util ul {
+    padding-left: 1em;
+}
+
+.printer-icon, .github-icon, .linkedin-icon, .email-icon,.cellphone-icon {
+    width: 1em;
+    margin-right:0.3em;
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (max-width : 1400px) {
+/* Styles */
+    span.right-sidebar-util {
+        margin-left: 14em;
+    }
+
+}
+@media only screen
+and (max-width : 1200px) {
+/* Styles */
+    .meet-nick-inner-container {
+        position: relative;
+        top: -6em;
+    }
+
+}
+
+@media only screen
+and (max-width : 1000px) {
+/* Styles */
+    .nick-profile {
+        padding-left: 0;
+    }
+    span.right-sidebar-util {
+        margin-left: 2em;
+    }
+}
+
+@media only screen
+and (max-width : 900px) {
+/* Styles */
+
+}
+
+@media only screen
+and (max-width : 700px) {
+/* Styles */
+
+}
+
