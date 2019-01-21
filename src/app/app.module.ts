@@ -7,6 +7,7 @@ import { IntroBlockComponent } from './intro-block/intro-block.component';
 import { ResumeMeetNickComponent } from './resume-meet-nick/resume-meet-nick.component';
 import { ResumeProfessionalComponent } from './resume-professional/resume-professional.component';
 import { FooterComponent } from './footer/footer.component';
+import { GithubLinkStyleDirective } from './shared/github-link-style.directive';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FooterComponent } from './footer/footer.component';
     IntroBlockComponent,
     ResumeMeetNickComponent,
     ResumeProfessionalComponent,
-    FooterComponent
+    FooterComponent,
+    GithubLinkStyleDirective
   ],
   imports: [
     BrowserModule,

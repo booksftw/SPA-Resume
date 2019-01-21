@@ -18,12 +18,13 @@ h1.grid-header{
 
 .grid-item {
     float: left;
-    width: 13%;
+    width: 26%;
     margin-left:1.25em;
     margin-top:1.25em;
-    height: 10em;
-    background: #e6e5e4;
-    border: 2px solid #b6b5b4;
+    height: 24em;
+    background: #f5f5f5;
+    border: 2px ridge #b6b5b4;
+    border-radius: 1em;
 }
 
 .grid-item-header {
@@ -33,8 +34,8 @@ h1.grid-header{
 
 .grid-img-item {
     padding-top:5px;
-    width: 50%;
-    height: 30%;
+    width: 70%;
+    height: 40%;
     margin-left:2em;
 }
 
@@ -47,4 +48,8 @@ h1.grid-header{
     /* margin-left:5em; */
     display:inline-block;
     width:20em;
+}
+
+.github_link{
+    cursor: pointer;
 }
