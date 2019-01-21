@@ -1,0 +1,54 @@
+/* Styles go here */
+
+.parent {
+    position: relative;
+}
+
+.child-header {
+    margin-top: 0;
+    padding-top: 25px;
+}
+
+.parent .parent-header:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    left: 15px;
+    top: 36px;
+    border-left: 1px dotted black;
+}
+
+.child {
+    padding-left: 30px;
+    position: relative;
+}
+
+.child .child-header:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    left: 15px;
+    top: 0px;
+    border-left: 1px dotted black;
+    /* font-size:18 */
+}
+
+.child:last-child .child-header:before {
+    height: 35px;
+}
+
+.child .child-header:after {
+    content: '';
+    height: 1px;
+    width: 15px;
+    position: absolute;
+    left: 15px;
+    top: 37px;
+    border-top: 1px dotted black;
+}
+
+.child-header {
+    font-size:1.2em;
+}
