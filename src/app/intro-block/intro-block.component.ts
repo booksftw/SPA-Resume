@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./intro-block.component.css']
 })
 export class IntroBlockComponent implements OnInit {
-
+  showNumber: boolean = false;
+  showEmail: boolean = false;
+  
   constructor() { }
 
   ngOnInit() {
+    console.log(window.scrollY)
   }
+  
 
 }

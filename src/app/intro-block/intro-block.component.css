@@ -19,15 +19,15 @@ div.left-sidebar {
     display: inline;
 }
 
-p.scrollImg {
-    color: white;
-    text-align: center;
-    display: inline;
-    top: 3em;
-    /* * Todo: update this to be in a fixed bot left position animating. */
-    position: relative;
+
+.cell-icon, .email-icon {
+    width:2.3em;
+    cursor:pointer;
 }
 
+.cell-icon {
+    margin-bottom: 0.5em;
+}
 /* Desktops and laptops ----------- */
 
 @media only screen and (max-width: 1834px) {

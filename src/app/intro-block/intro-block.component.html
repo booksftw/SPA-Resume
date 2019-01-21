@@ -1,10 +1,17 @@
 <div>
   <div class="left-sidebar">
     <!--Phone and Email Icon-->
-    <p style="color:white">PHONE ICON</p> <br>
-    <p style="color:white">EMAIL ICON</p>
+    <div class="cell-container">
+      <img class="cell-icon" src="/assets/images/icons/cell-white.png" alt="cellphone icon" (click)="showNumber = !showNumber">{{showNumber ? 'hide' : 'show'}}/>
+      <p *ngIf="showNumber" style="color:white">1-250-415-5392</p> <br>
+    </div>
 
-    <p class="scrollImg">scroll<br> animation</p>
+    <div class="email-container">
+      <img class="email-icon" src="/assets/images/icons/email-white.jpg" alt="email icon"  (click)="showEmail = !showEmail">{{showEmail ? 'hide' : 'show'}} />
+      <p *ngIf="showEmail" style="color:white">nicholas.zachary@outlook.com</p>
+    </div>
+
+    <app-scroller-animation></app-scroller-animation>
   </div>
   
 

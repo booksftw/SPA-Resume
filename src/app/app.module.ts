@@ -9,6 +9,7 @@ import { ResumeProfessionalComponent } from './resume-professional/resume-profes
 import { FooterComponent } from './footer/footer.component';
 import { GithubLinkStyleDirective } from './shared/github-link-style.directive';
 import { SkillsComponent } from './resume-professional/skills/skills.component';
+import { ScrollerAnimationComponent } from './intro-block/scroller-animation/scroller-animation.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SkillsComponent } from './resume-professional/skills/skills.component';
     ResumeProfessionalComponent,
     FooterComponent,
     GithubLinkStyleDirective,
-    SkillsComponent
+    SkillsComponent,
+    ScrollerAnimationComponent
   ],
   imports: [
     BrowserModule,
