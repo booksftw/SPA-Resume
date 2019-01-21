@@ -98,9 +98,17 @@ body {
     }
 }
 
+@media only screen and (max-width: 1450px) {
+    /* Styles */
+    .container {
+        top:41em;
+    }
+}
+
+
 @media only screen and (max-width: 1274px) {
     /* Styles */
     .container {
-        top:49em;
+        top:39em;
     }
 }

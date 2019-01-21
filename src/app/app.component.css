@@ -80,4 +80,8 @@ and (max-width : 940px) {
     div.professional {
         height:320vh;
     }
+
+    div.meet-nick-container {
+        height: 165vh;
+    }
 }

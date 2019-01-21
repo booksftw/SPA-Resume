@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ScrollerAnimationComponent implements OnInit {
 
   showMouse: boolean = false;
+
   continue_checking_scroll_position: boolean = true;
 
   constructor() { }
@@ -15,6 +16,7 @@ export class ScrollerAnimationComponent implements OnInit {
   ngOnInit() {
       setTimeout(() => {
         this.showMouse = true;
+        console.log('SET TIME OUT CALLED', this.showMouse)
         this.start_check_scroll_position_loop();
       }, 3000);
   }

@@ -12,8 +12,7 @@
 
 span.right-sidebar-util {
     display: inline;
-    margin-left: 30em;
-    /* width: 13em; */
+    margin-left: 13em;
 }
 
 p.nick-occupation-description {
@@ -44,12 +43,16 @@ h1.nick-occupation-header {
     margin-right:0.3em;
 }
 
+.communities-container ul {
+    list-style: upper-roman;
+}
+
 /* Desktops and laptops ----------- */
 @media only screen
 and (max-width : 1400px) {
 /* Styles */
     span.right-sidebar-util {
-        margin-left: 14em;
+        margin-left: 6em;
     }
 
 }
@@ -77,12 +80,16 @@ and (max-width : 1000px) {
 @media only screen
 and (max-width : 900px) {
 /* Styles */
+    .nick-profile{
+        display: inline-block;
+        text-align: center;
+        margin-left: 5em;
+    }
 
 }
 
 @media only screen
 and (max-width : 700px) {
 /* Styles */
-
 }
 
