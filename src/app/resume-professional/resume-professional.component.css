@@ -45,11 +45,26 @@ h1.grid-header{
 }
 
 .sidebar {
-    /* margin-left:5em; */
-    display:inline-block;
-    width:20em;
+    display: inline-block;
+    width: 25em;
+    padding-top: 6.7em;
+    padding-right: 3em;
 }
 
 .github_link{
     cursor: pointer;
+}
+
+.education ul {
+    padding-left: 0.2em;
+    list-style: none;
+}
+
+.education ul li {
+    padding-top: 1em;
+}
+
+.strengths h3{
+    font-size: 1.5em;
+    font-weight:700;
 }

@@ -24,3 +24,60 @@ div.footer {
     justify-content: center;
 }
 
+/* Desktops and laptops ----------- */
+
+@media only screen
+and (max-width : 1630px) {
+/* Styles */
+    div.professional {
+        height: 190vh;
+    }
+}
+
+@media only screen
+and (max-width : 1400px) {
+/* Styles */
+    div.professional {
+        height: 201vh;
+    }
+}
+@media only screen
+and (max-width : 1350px) {
+/* Styles */
+    div.professional {
+        height: 217vh;
+    }
+
+}
+
+@media only screen
+and (max-width : 1200px) {
+/* Styles */
+    div.professional {
+        height: 231vh;
+    }
+}
+
+@media only screen
+and (max-width : 1870px) {
+/* Styles */
+    div.professional {
+        height: 252vh;
+    }
+}
+
+@media only screen
+and (max-width : 1200px) {
+/* Styles */
+    div.professional {
+        height:278vh;
+    }
+}
+
+@media only screen
+and (max-width : 940px) {
+/* Styles */
+    div.professional {
+        height:320vh;
+    }
+}

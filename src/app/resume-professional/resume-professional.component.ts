@@ -79,13 +79,13 @@ export class ResumeProfessionalComponent implements OnInit {
         role_in_project: '',
         github_link: 'https://github.com/booksftw/Chatty-react-websockets',
         languages_used: []
-      }
+      },
       {
         title: 'This Resume',
         imgsrc: '/assets/images/projects/this_resume_img',
         description: '',
         role_in_project: '',
-        github_link: 'https://github.com/booksftw/Chatty-react-websockets',
+        github_link: 'https://github.com/booksftw/SPA-Resume',
         languages_used: []
       }
     );

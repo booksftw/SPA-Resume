@@ -8,6 +8,7 @@ import { ResumeMeetNickComponent } from './resume-meet-nick/resume-meet-nick.com
 import { ResumeProfessionalComponent } from './resume-professional/resume-professional.component';
 import { FooterComponent } from './footer/footer.component';
 import { GithubLinkStyleDirective } from './shared/github-link-style.directive';
+import { SkillsComponent } from './resume-professional/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GithubLinkStyleDirective } from './shared/github-link-style.directive';
     ResumeMeetNickComponent,
     ResumeProfessionalComponent,
     FooterComponent,
-    GithubLinkStyleDirective
+    GithubLinkStyleDirective,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

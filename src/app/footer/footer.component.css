@@ -10,19 +10,26 @@ h3.footer-header {
 .footer-list {
     text-align: center;
     padding-bottom:1.5em;
+    position:relative;
+    right:3em;
 }
 
-.footer-list p {
+.footer-list div {
     display: inline-block;
 }
 
-.footer-mail {
-    position:relative;
-    right: 5em;
+
+.printer-icon, .github-icon, .linkedin-icon, .email-icon,.cellphone-icon {
+    width: 1em;
 }
 
-.footer-phone-number {
+.email-container {
     position: relative;
-    left:5em;
+    right: 4em;
+}
+
+.cellphone-container {
+    position:relative;
+    left:4em;
 }
 

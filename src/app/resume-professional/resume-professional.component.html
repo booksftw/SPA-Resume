@@ -13,7 +13,7 @@
           <h1 class='grid-item-header'>{{project.title}}</h1>
           <img class='grid-img-item' src="{{project.imgsrc}}" alt="resume project img">
           <p class='grid-description-item'>{{project.description}}</p>
-          <p>Role Position Num of Teammembers</p>
+          <p class="grid-role">Role in development: {{project.role_in_project}}</p>
         </div>
       </div>
     
@@ -22,7 +22,7 @@
           <h1 class='grid-item-header'>{{project.title}}</h1>
           <img class='grid-img-item' src="{{project.imgsrc}}" alt="resume project img">
           <p class='grid-description-item'>{{project.description}}</p>
-          <p>Role Position Num of Teammembers</p>
+          <p class="grid-role">Role in development: {{project.role_in_project}}</p>
         </div>
       </ng-template>
     </div>
@@ -30,10 +30,9 @@
   </div>
 
   <div class="sidebar">
-    <div class="softskills">
-      <h3>Softskills</h3>
-      <p>Empathy, other hootsuite <br>
-        values... </p>
+    <div class="strengths">
+      <h3>Strengths</h3>
+      <p>Empathy, Teamwork, Good Listener, Egoless, Continous search for personal development </p>
     </div>
     <div class="employment">
       <h3>Employment</h3>
@@ -46,31 +45,37 @@
       <p>Camosun College <br>
         Jan 2010 to Jan 2012</p>
       <br>
-      <p>Coursera - list courses</p>
+      <ul>
+        <p><strong>Coursera</strong></p>
+        <li>
+          Stanford Online- Mathematical Thinking <br/>
+          <a href="https://www.coursera.org/account/accomplishments/certificate/TSN2AWEUGYRD" > Certificate License: TSN2AWEUGYRD</a>
+        </li>
+        <li>
+            Learn to Program: The Fundamentals <br/>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/ATTSDPYBUFCZ" > Certificate License: ATTSDPYBUFCZ</a>
+        </li>
+        <li>
+            Learning How to Learn: Powerful mental tools to help you master tough subjects <br/>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/SNHGHU9HNAXF" > Certificate License: SNHGHU9HNAXF</a>
+        </li>
+        <li>
+            The University of Edinburgh & Universidad ORT Uruguay on Coursera - Code Yourself! An Introduction to Programming <br/>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/BMRFEWFJTGAG" > Certificate License: BMRFEWFJTGAG</a>
+        </li>
+      </ul>
       <br>
-      <p>Teamtreehouse - list stats</p>
+      <p>Udemy completed course ~30</p>
       <br>
-      <p>Udemy list stats</p>
+      <p>Teamtreehouse <br/>
+      <a href="https://teamtreehouse.com/nickzachary">Profile</a>
+      </p>
     </div>
     <div class="skills">
-      <h3>Skills</h3>
-      <p>Break down skills into subcateries <br>
-        and display here in some way<br><br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt lacus vel urna semper feugiat.
-        Aenean condimentum posuere lectus, at.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-        tincidunt lacus vel urna semper feugiat. Aenean condimentum posuere lectus, at.Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit. Phasellus tincidunt lacus vel urna semper feugiat. Aenean condimentum posuere
-        lectus, at.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt lacus vel urna semper
-        feugiat. Aenean condimentum posuere lectus, at.
-      </p>
-      <!-- break it down into sub categories-->
+      <app-skills></app-skills>
     </div>
   </div>
 
-  <div *ngFor="let x of test">
-    <p>
-      {{x}}
-    </p>
-  </div>
+ 
 
 </div>
