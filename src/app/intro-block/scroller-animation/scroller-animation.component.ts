@@ -8,13 +8,30 @@ import { Component, OnInit } from '@angular/core';
 export class ScrollerAnimationComponent implements OnInit {
 
   showMouse: boolean = false;
+  continue_checking_scroll_position: boolean = true;
 
   constructor() { }
 
   ngOnInit() {
       setTimeout(() => {
         this.showMouse = true;
+        this.start_check_scroll_position_loop();
       }, 3000);
+  }
+
+  start_check_scroll_position_loop() {
+    // Turn off recursion loop when user scrolls to next component
+    window.scrollY > 460 ? this.continue_checking_scroll_position = false : null;
+
+    // Slows the recurssion loop down
+    setTimeout( () => {
+      if (this.continue_checking_scroll_position) {
+        this.start_check_scroll_position_loop();
+      } else {
+        this.showMouse = false;
+      }
+    }, 300 );
+
   }
 
 
