@@ -64,6 +64,9 @@ and (max-width : 1870px) {
     div.professional {
         height: 252vh;
     }
+    div.meet-nick-container {
+        height: 105vh;
+    }
 }
 
 @media only screen
@@ -72,10 +75,14 @@ and (max-width : 1200px) {
     div.professional {
         height:278vh;
     }
+
+    div.meet-nick-container {
+        height: 165vh;
+    }
 }
 
 @media only screen
-and (max-width : 940px) {
+and (max-width : 990px) {
 /* Styles */
     div.professional {
         height:320vh;

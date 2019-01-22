@@ -13,6 +13,7 @@
 span.right-sidebar-util {
     display: inline;
     margin-left: 13em;
+    margin-right:6em;
 }
 
 p.nick-occupation-description {
@@ -54,7 +55,6 @@ and (max-width : 1400px) {
     span.right-sidebar-util {
         margin-left: 6em;
     }
-
 }
 @media only screen
 and (max-width : 1200px) {
