@@ -95,7 +95,7 @@ export class ResumeProfessionalComponent implements OnInit {
       {
         title: 'This Resume',
         imgsrc: '/assets/images/resume-screenshot.png',
-        description: 'This resume was made with you :-)',
+        description: 'This resume was made for you :-)',
         role_in_project: 'Everything for you',
         github_link: 'https://github.com/booksftw/SPA-Resume',
         languages_used: ['Angular', 'JavaScript', 'CSS']
