@@ -12,10 +12,10 @@
         <div class="grid-item" (click)="onProjectClick(project)" appGithubLinkStyle>
           <h1 class='grid-item-header'>{{project.title}}</h1>
           <img class='grid-img-item' src="{{project.imgsrc}}" alt="resume project img">
-          <p class="grid-role">Role: {{project.role_in_project}}</p>
           <p class='grid-description-item'>{{project.description}}</p>
           <span class="languages_used">
-              <p *ngFor="let lang of project.languages_used">{{lang}}</p>
+            <p class="grid-role"><strong>Role: {{project.role_in_project}}</strong> </p> <br>
+            <p *ngFor="let lang of project.languages_used">{{lang}}</p>
             </span>
 
         </div>
@@ -25,9 +25,9 @@
         <div class="grid-item" (click)="onProjectClick(project)">
           <h1 class='grid-item-header'>{{project.title}}</h1>
           <img class='grid-img-item' src="{{project.imgsrc}}" alt="resume project img">
-          <p class="grid-role">Role: {{project.role_in_project}}</p>
           <p class='grid-description-item'>{{project.description}}</p>
           <span class="languages_used">
+              <p class="grid-role"><strong>Role: {{project.role_in_project}}</strong></p> <br>
             <p *ngFor="let lang of project.languages_used">{{lang}}</p>
           </span>
 

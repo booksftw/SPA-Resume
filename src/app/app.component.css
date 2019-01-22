@@ -47,16 +47,13 @@ and (max-width : 1350px) {
     div.professional {
         height: 217vh;
     }
-
-}
-
-@media only screen
-and (max-width : 1200px) {
-/* Styles */
-    div.professional {
-        height: 231vh;
+    div.meet-nick-container {
+        height: 135vh;
     }
+
 }
+
+
 
 @media only screen
 and (max-width : 1870px) {
@@ -65,7 +62,7 @@ and (max-width : 1870px) {
         height: 252vh;
     }
     div.meet-nick-container {
-        height: 105vh;
+        height: 135vh;
     }
 }
 
@@ -73,7 +70,7 @@ and (max-width : 1870px) {
 and (max-width : 1200px) {
 /* Styles */
     div.professional {
-        height:278vh;
+        height:400vh;
     }
 
     div.meet-nick-container {
@@ -82,13 +79,21 @@ and (max-width : 1200px) {
 }
 
 @media only screen
-and (max-width : 990px) {
+and (max-width : 1050px) {
 /* Styles */
     div.professional {
-        height:320vh;
+        height:720vh;
     }
 
     div.meet-nick-container {
-        height: 165vh;
+        height: 210vh;
+    }
+}
+
+@media only screen
+and (max-width : 650px) {
+/* Styles */
+    div.meet-nick-container {
+        height: 240vh;
     }
 }

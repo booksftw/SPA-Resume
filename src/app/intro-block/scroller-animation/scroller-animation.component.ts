@@ -18,7 +18,7 @@ export class ScrollerAnimationComponent implements OnInit {
         this.showMouse = true;
         console.log('SET TIME OUT CALLED', this.showMouse)
         this.start_check_scroll_position_loop();
-      }, 3000);
+      }, 1500);
   }
 
   start_check_scroll_position_loop() {
