@@ -10,7 +10,7 @@ div.meet-nick-container {
     background-color: #F7F7F7;
 }
 
-div.professional {
+div#professional {
     width:100%;
     height: 172vh;
     background-color:#F2DBE1;
@@ -29,7 +29,7 @@ div.footer {
 @media only screen
 and (max-width : 1630px) {
 /* Styles */
-    div.professional {
+    div#professional {
         height: 190vh;
     }
 }
@@ -37,14 +37,14 @@ and (max-width : 1630px) {
 @media only screen
 and (max-width : 1400px) {
 /* Styles */
-    div.professional {
+    div#professional {
         height: 201vh;
     }
 }
 @media only screen
 and (max-width : 1350px) {
 /* Styles */
-    div.professional {
+    div#professional {
         height: 217vh;
     }
     div.meet-nick-container {
@@ -58,7 +58,7 @@ and (max-width : 1350px) {
 @media only screen
 and (max-width : 1870px) {
 /* Styles */
-    div.professional {
+    div#professional {
         height: 252vh;
     }
     div.meet-nick-container {
@@ -69,7 +69,7 @@ and (max-width : 1870px) {
 @media only screen
 and (max-width : 1200px) {
 /* Styles */
-    div.professional {
+    div#professional {
         height:400vh;
     }
 
@@ -81,7 +81,7 @@ and (max-width : 1200px) {
 @media only screen
 and (max-width : 1050px) {
 /* Styles */
-    div.professional {
+    div#professional {
         height:720vh;
     }
 
