@@ -14,6 +14,10 @@
           <img class='grid-img-item' src="{{project.imgsrc}}" alt="resume project img">
           <p class='grid-description-item'>{{project.description}}</p>
           <p class="grid-role">Role in development: {{project.role_in_project}}</p>
+          <span class="languages_used">
+              <p *ngFor="let lang of project.languages_used">{{lang}}</p>
+            </span>
+
         </div>
       </div>
     
@@ -23,6 +27,10 @@
           <img class='grid-img-item' src="{{project.imgsrc}}" alt="resume project img">
           <p class='grid-description-item'>{{project.description}}</p>
           <p class="grid-role">Role in development: {{project.role_in_project}}</p>
+          <span class="languages_used">
+            <p *ngFor="let lang of project.languages_used">{{lang}}</p>
+          </span>
+
         </div>
       </ng-template>
     </div>

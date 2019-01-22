@@ -22,7 +22,7 @@ export class ResumeProfessionalComponent implements OnInit {
         description: "A ecommerce Wordpress site that's active ",
         role_in_project: 'lead dev and design',
         github_link: '',
-        languages_used: []
+        languages_used: ['Wordpress', 'PHP' ,'Javascript', 'JQuery', 'HTML', 'CSS', 'Woo-commerce', '3rd-party-integrations']
       },
       {
         title: 'Dota2Edge',
@@ -30,7 +30,7 @@ export class ResumeProfessionalComponent implements OnInit {
         description: 'Angular app that intelligently figures out to pick the best dota2 heroes',
         role_in_project: '',
         github_link: 'https://github.com/booksftw/dota-2-edge',
-        languages_used: []
+        languages_used: ['Firebase','Angular', 'JavaScript', 'HTML', 'CSS', 'Bootstrap']
       },
       {
         title: 'Creative Project Management Board ( Needs updated IMG )',
@@ -38,7 +38,7 @@ export class ResumeProfessionalComponent implements OnInit {
         description: 'Angular app that intelligently figures out to pick the best dota2 heroes',
         role_in_project: '',
         github_link: '',
-        languages_used: []
+        languages_used: ['In Progress']
       },
       {
         title: 'Lighthouse Eats',
@@ -46,7 +46,7 @@ export class ResumeProfessionalComponent implements OnInit {
         description: 'Angular app that intelligently figures out to pick the best dota2 heroes',
         role_in_project: '',
         github_link: 'https://github.com/booksftw/restaurant_mid_term',
-        languages_used: []
+      languages_used: ['Node', 'Express', 'Postgres', 'JavaScript', '3rd-party-API', 'JQuery']
       },
       {
         title: 'booksftw.com',
@@ -54,7 +54,7 @@ export class ResumeProfessionalComponent implements OnInit {
         description: 'A stackoverflow Q & A site to answer question for the company.',
         role_in_project: '',
         github_link: '',
-        languages_used: []
+        languages_used: ['Wordpress', 'PHP', 'Custom Fields', 'Plugin', 'Theme development']
       },
       {
         title: 'TinyApp',
@@ -62,7 +62,7 @@ export class ResumeProfessionalComponent implements OnInit {
         description: 'Angular app that intelligently figures out to pick the best dota2 heroes',
         role_in_project: '',
         github_link: 'https://github.com/booksftw/tinyApp',
-        languages_used: []
+        languages_used: ['Node', 'Express' , 'JQuery', 'JavaScript', 'CSS', 'EJS']
       },
       {
         title: 'Tweeter',
@@ -70,7 +70,7 @@ export class ResumeProfessionalComponent implements OnInit {
         description: 'Angular app that intelligently figures out to pick the best dota2 heroes',
         role_in_project: '',
         github_link: 'https://github.com/booksftw/tweeter',
-        languages_used: []
+        languages_used: ['Node', 'Express', 'EJS', 'CSS', 'JavaScript', 'JQuery' ]
       },
       {
         title: 'Chatty',
@@ -78,7 +78,7 @@ export class ResumeProfessionalComponent implements OnInit {
         description: 'Angular app that intelligently figures out to pick the best dota2 heroes',
         role_in_project: '',
         github_link: 'https://github.com/booksftw/Chatty-react-websockets',
-        languages_used: []
+        languages_used: ['React', 'Websockets' ,'JavaScript', 'CSS']
       },
       {
         title: 'This Resume',
@@ -86,7 +86,7 @@ export class ResumeProfessionalComponent implements OnInit {
         description: '',
         role_in_project: '',
         github_link: 'https://github.com/booksftw/SPA-Resume',
-        languages_used: []
+        languages_used: ['Angular', 'JavaScript', 'CSS']
       }
     );
 
