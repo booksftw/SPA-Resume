@@ -17,26 +17,26 @@ export class ResumeProfessionalComponent implements OnInit {
 
     this.projects.push(
       {
-        title: 'Rousseau Chain (active Commercial Business)',
+        title: 'RousseauChain (Active Commercial Business)',
         imgsrc: '/assets/images/projects/rousseauchaincom_img.png',
-        description: "A ecommerce Wordpress site that's active ",
-        role_in_project: 'lead dev and design',
+        description: 'A ecommerce Wordpress site that\'s active ',
+        role_in_project: 'Principal Wordpress developer and designer',
         github_link: '',
-        languages_used: ['Wordpress', 'PHP' ,'Javascript', 'JQuery', 'HTML', 'CSS', 'Woo-commerce', '3rd-party-integrations']
+        languages_used: ['Wordpress', 'PHP' , 'Javascript', 'JQuery', 'HTML', 'CSS', 'Woo-commerce', '3rd-party-integrations']
       },
       {
         title: 'Dota2Edge',
         imgsrc: '/assets/images/dota2-wallpaper.jpg',
         description: 'Angular app that intelligently figures out to pick the best dota2 heroes',
-        role_in_project: '',
+        role_in_project: 'Everything - personal project',
         github_link: 'https://github.com/booksftw/dota-2-edge',
-        languages_used: ['Firebase','Angular', 'JavaScript', 'HTML', 'CSS', 'Bootstrap']
+        languages_used: ['Firebase', 'Angular', 'JavaScript', 'HTML', 'CSS', 'Bootstrap']
       },
       {
         title: 'Creative Project Management Board ( Needs updated IMG )',
         imgsrc: '/assets/images/projects/realtimeboard_img.jpg',
         description: 'Angular app that intelligently figures out to pick the best dota2 heroes',
-        role_in_project: '',
+        role_in_project: 'Developed entire Angular web app and Firebase backend with some React native',
         github_link: '',
         languages_used: ['In Progress']
       },
