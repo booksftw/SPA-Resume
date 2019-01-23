@@ -110,6 +110,6 @@ and (max-width : 999px) {
     }
     .grid-item {
         width: 30%;
-        height:30em;
+        height:35em;
     }
 }

@@ -8,7 +8,7 @@ import { ResumeMeetNickComponent } from './resume-meet-nick/resume-meet-nick.com
 import { ResumeProfessionalComponent } from './resume-professional/resume-professional.component';
 import { FooterComponent } from './footer/footer.component';
 import { GithubLinkStyleDirective } from './shared/github-link-style.directive';
-import { SkillsComponent } from './resume-professional/skills/skills.component';
+import { SkillsComponent } from './resume-meet-nick/skills/skills.component';
 import { ScrollerAnimationComponent } from './intro-block/scroller-animation/scroller-animation.component';
 
 @NgModule({
