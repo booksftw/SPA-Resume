@@ -134,7 +134,7 @@ and (max-width : 1350px) {
 and (max-width : 1870px) {
 /* Styles */
     div#professional {
-        height: 270vh;
+        height: 290vh;
     }
     div.meet-nick-container {
         height: 135vh;
